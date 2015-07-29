@@ -9,7 +9,7 @@
     android:background="@drawable/blackwood"
     tools:context="m.CookingActivity">
 
-    //some changes
+    //some changes 2
 
 
     <TextView
