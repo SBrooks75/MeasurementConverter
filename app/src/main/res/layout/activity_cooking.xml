@@ -9,6 +9,8 @@
     android:background="@drawable/blackwood"
     tools:context="m.CookingActivity">
 
+    //some changes
+
 
     <TextView
         android:id="@+id/CookingTitle"
