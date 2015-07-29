@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Measurement Converter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_temp">TempActivity</string>
+    <string name="option_select">Choose an object</string>
+    <string name="editTextView" />
+    <string name="temp_title">Temperature Converter</string>
+    <string name="celTextView"></string>
+    <string name="fahTextView"></string>
+    <string name="convertButton">Convert</string>
+    <string-array name="degree_array">
+        <item>" °F "</item>
+        <item>" °C "</item>
+        <item>" °K "</item>
+    </string-array>
+    <string name="title_activity_cooking">CookingActivity</string>
+    <string-array name="cookingoptionsone">
+        <item>Cups</item>
+        <item>Fl. Ounces</item>
+        <item>Gallons</item>
+        <item>Liters</item>
+        <item>Milliliters</item>
+        <item>Pints</item>
+        <item>Quarts</item>
+        <item>Tbsp</item>
+        <item>Tsp</item>
+        <item>Grams</item>
+    </string-array>
+
+    <string-array name="cookingoptionstwo">
+        <item>Cups</item>
+        <item>Fl. Ounces</item>
+        <item>Gallons</item>
+        <item>Liters</item>
+        <item>Milliliters</item>
+        <item>Pints</item>
+        <item>Quarts</item>
+        <item>Tbsp</item>
+        <item>Tsp</item>
+        <item>Grams</item>
+    </string-array>
+    <string name="title_activity_distance">DistanceActivity</string>
+
+    <string-array name="distanceoptionsone">
+        <item>Centimeters</item>
+        <item>Inches</item>
+        <item>Feet</item>
+        <item>Hands</item>
+        <item>Yards</item>
+        <item>Meters</item>
+        <item>Fathoms</item>
+        <item>Rods</item>
+        <item>Kilometers</item>
+        <item>Miles</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="distanceoptionstwo">
+        <item>Centimeters</item>
+        <item>Inches</item>
+        <item>Feet</item>
+        <item>Hands</item>
+        <item>Yards</item>
+        <item>Meters</item>
+        <item>Fathoms</item>
+        <item>Rods</item>
+        <item>Kilometers</item>
+        <item>Miles</item>
+        <item></item>
+    </string-array>
+</resources>

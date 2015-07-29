@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/blackwood"
+    tools:context="m.CookingActivity">
+
+
+    <TextView
+        android:id="@+id/CookingTitle"
+        android:text="Cooking (Volume)"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/cookingImage"
+        android:background="@drawable/cookingiconcopyredhat"
+        android:layout_alignParentRight="true"
+        android:layout_width="85dp"
+        android:layout_height="85dp" />
+
+    <Spinner
+        android:id="@+id/cookingspinnerone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/cookingoptionsone"
+        android:layout_alignBottom="@+id/cookingEditTextOne"
+        android:layout_toRightOf="@+id/cookingEditTextOne" />
+
+    <EditText
+        android:id="@+id/cookingEditTextOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Value"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="65dp"
+        android:textColorHint="#ffffffff"
+        android:inputType="phone"
+        />
+
+    <TextView
+        android:id="@+id/toTextView"
+        android:textColor="#ffffffff"
+        android:text="to"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="95dp"
+        android:paddingTop="16dp"
+        android:textSize="25sp"
+        android:layout_below="@+id/cookingEditTextOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Spinner
+        android:id="@+id/cookingspinnertwo"
+        android:entries="@array/cookingoptionstwo"
+        android:layout_alignBottom="@+id/cookingTextViewTwo"
+        android:layout_toRightOf="@+id/cookingTextViewTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Spinner>
+
+    <TextView
+        android:id="@+id/cookingTextViewTwo"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Value"
+        android:textColorHint="#ffffffff"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="165dp"
+        android:paddingBottom="5dp"
+        android:text="0.0"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+
+
+    <ImageView
+        android:id="@+id/spinnerOneDownArrow"
+        android:background="@drawable/downtothegroundone"
+        android:layout_alignBottom="@+id/cookingspinnerone"
+        android:layout_alignStart="@+id/cookingspinnerone"
+        android:layout_alignLeft="@+id/cookingspinnerone"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp" />
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/spinnerTwoDownArrow"-->
+        <!--android:background="@drawable/downtothegroundtwo"-->
+        <!--android:layout_alignEnd="@+id/cookingSpinnnerTwo"-->
+        <!--android:layout_alignRight="@+id/cookingSpinnnerTwo"-->
+        <!--android:layout_marginTop="165dp"-->
+    <!--android:layout_width="45dp"-->
+    <!--android:layout_height="45dp" />-->
+
+
+    <ImageView
+        android:background="@drawable/lineeeetwoooo"
+        android:layout_alignBottom="@+id/cookingTextViewTwo"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/spinnerOneDownArrowTwo"
+        android:background="@drawable/downtothegroundtwo"
+        android:layout_alignBottom="@+id/cookingspinnertwo"
+        android:layout_alignStart="@+id/cookingspinnertwo"
+        android:layout_alignLeft="@+id/cookingspinnertwo"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cookingconvertButtonId"
+        android:text="@string/convertButton"
+        android:background="@drawable/custom_buttons"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/spinnerOneDownArrowTwo"
+        android:layout_marginTop="40dp"/>
+
+
+    <TextView
+        android:text="1/2 (Cup, tsp, tbsp,etc...) =  .50 \n1/3 (Cup, tsp, tbsp,etc...) =  .33\n3/4 (Cup, tsp, tbsp,etc...) =  .75\n1/16 (Cup, tsp, tbsp,etc...) =  .0625\n1/8 (Cup, tsp, tbsp,etc...) =  .125\n1/4 (Cup, tsp, tbsp,etc...)=  .25"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="20dp"
+        android:textColor="#ffffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</RelativeLayout>
