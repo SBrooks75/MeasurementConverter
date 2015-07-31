@@ -61,7 +61,7 @@ public class DistanceActivity extends Activity {
                 }else if (distanceSpinnerOne.getItemAtPosition(1) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(0) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText / .39370;
+                    double convertedVal = intEditText * 2.54;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
@@ -82,28 +82,28 @@ public class DistanceActivity extends Activity {
                 }else if (distanceSpinnerOne.getItemAtPosition(0) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(2) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText * .032808;
+                    double convertedVal = intEditText * .0328084;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
                 }else if (distanceSpinnerOne.getItemAtPosition(2) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(0) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText / .032808;
+                    double convertedVal = intEditText * 30.48000;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
                 }else if (distanceSpinnerOne.getItemAtPosition(0) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(4) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText * .010936;
+                    double convertedVal = intEditText * .01093613;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
                 }else if (distanceSpinnerOne.getItemAtPosition(4) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(0) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText / .010936;
+                    double convertedVal = intEditText * 91.44000;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
@@ -117,7 +117,7 @@ public class DistanceActivity extends Activity {
                 }else if (distanceSpinnerOne.getItemAtPosition(5) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(0) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText / .01;
+                    double convertedVal = intEditText * 100.0000;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
@@ -159,21 +159,21 @@ public class DistanceActivity extends Activity {
                 }else if (distanceSpinnerOne.getItemAtPosition(8) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(0) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText / .00001;
+                    double convertedVal = intEditText * 100000.000;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
                 }else if (distanceSpinnerOne.getItemAtPosition(0) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(9) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText * .0000062137;
+                    double convertedVal = intEditText * .000006213712;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
                 }else if (distanceSpinnerOne.getItemAtPosition(9) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(0) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText / .0000062137;
+                    double convertedVal = intEditText * 160934.4;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
@@ -208,7 +208,7 @@ public class DistanceActivity extends Activity {
                 }else if (distanceSpinnerOne.getItemAtPosition(1) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(4) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText * .027778;
+                    double convertedVal = intEditText * .02777778;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
@@ -229,7 +229,7 @@ public class DistanceActivity extends Activity {
                 }else if (distanceSpinnerOne.getItemAtPosition(5) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(1) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText / .0254;
+                    double convertedVal = intEditText * 39.37008;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
@@ -254,10 +254,26 @@ public class DistanceActivity extends Activity {
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
+
+
                 }else if (distanceSpinnerOne.getItemAtPosition(7) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(1) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
                     double convertedVal = intEditText * 198;
+                    String stringResult = String.valueOf(biggest.format(convertedVal));
+                    distanceTextView.setText(stringResult);
+
+                }else if (distanceSpinnerOne.getItemAtPosition(1) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
+                        distanceSpinnerTwo.getItemAtPosition(8) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
+                    double intEditText = Double.parseDouble(editTextVal);
+                    double convertedVal = intEditText * .0000254;
+                    String stringResult = String.valueOf(biggest.format(convertedVal));
+                    distanceTextView.setText(stringResult);
+
+                }else if (distanceSpinnerOne.getItemAtPosition(8) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
+                        distanceSpinnerTwo.getItemAtPosition(1) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
+                    double intEditText = Double.parseDouble(editTextVal);
+                    double convertedVal = intEditText * 39370.08;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
@@ -292,28 +308,28 @@ public class DistanceActivity extends Activity {
                 }else if (distanceSpinnerOne.getItemAtPosition(2) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(4) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText / .333333;
+                    double convertedVal = intEditText * .333333;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
                 }else if (distanceSpinnerOne.getItemAtPosition(4) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(2) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText * .333333;
+                    double convertedVal = intEditText * 3.0;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
                 }else if (distanceSpinnerOne.getItemAtPosition(2) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(5) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText * .3048;
+                    double convertedVal = intEditText * .3048000;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
                 }else if (distanceSpinnerOne.getItemAtPosition(5) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(2) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText / .3048;
+                    double convertedVal = intEditText * 3.28084;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
@@ -348,28 +364,28 @@ public class DistanceActivity extends Activity {
                 }else if (distanceSpinnerOne.getItemAtPosition(2) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(8) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText / .0003048;
+                    double convertedVal = intEditText * .0003048000;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
                 }else if (distanceSpinnerOne.getItemAtPosition(8) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(2) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText / .0003048;
+                    double convertedVal = intEditText * 3280.840;
                     String stringResult = String.valueOf(bigger.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
                 }else if (distanceSpinnerOne.getItemAtPosition(2) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(9) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText * .00018939;
+                    double convertedVal = intEditText * .0001893939;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
                 }else if (distanceSpinnerOne.getItemAtPosition(9) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(2) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText * 5280.0;
+                    double convertedVal = intEditText * 5280.000;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
@@ -460,14 +476,14 @@ public class DistanceActivity extends Activity {
                 }else if (distanceSpinnerOne.getItemAtPosition(4) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(5) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText * .9114;
+                    double convertedVal = intEditText * .9144000;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
                 }else if (distanceSpinnerOne.getItemAtPosition(5) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(4) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText / .9114;
+                    double convertedVal = intEditText * 1.093613;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
@@ -509,21 +525,21 @@ public class DistanceActivity extends Activity {
                 }else if (distanceSpinnerOne.getItemAtPosition(8) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(4) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText / .0009144;
+                    double convertedVal = intEditText * 1093.613;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
                 }else if (distanceSpinnerOne.getItemAtPosition(4) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(9) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText * .00056818;
+                    double convertedVal = intEditText * .0005681818;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
                 }else if (distanceSpinnerOne.getItemAtPosition(9) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(4) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText / .00056818;
+                    double convertedVal = intEditText * 1760.00;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
@@ -558,28 +574,28 @@ public class DistanceActivity extends Activity {
                 }else if (distanceSpinnerOne.getItemAtPosition(5) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(8) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText * .001;
+                    double convertedVal = intEditText * .00100;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
                 }else if (distanceSpinnerOne.getItemAtPosition(8) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(5) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText / .001;
+                    double convertedVal = intEditText * 1000.000;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
                 }else if (distanceSpinnerOne.getItemAtPosition(5) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(9) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText * .00062137;
+                    double convertedVal = intEditText * .0006213712;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
                 }else if (distanceSpinnerOne.getItemAtPosition(9) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(5) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText / .00062137;
+                    double convertedVal = intEditText * 1609.344;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
@@ -656,14 +672,14 @@ public class DistanceActivity extends Activity {
                 }else if (distanceSpinnerOne.getItemAtPosition(8) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(9) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText * .00062137;
+                    double convertedVal = intEditText * .6213712;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
                 }else if (distanceSpinnerOne.getItemAtPosition(9) == String.valueOf(distanceSpinnerOne.getSelectedItem()) &&
                         distanceSpinnerTwo.getItemAtPosition(8) == String.valueOf(distanceSpinnerTwo.getSelectedItem())){
                     double intEditText = Double.parseDouble(editTextVal);
-                    double convertedVal = intEditText / .00062137;
+                    double convertedVal = intEditText * 1.609344;
                     String stringResult = String.valueOf(biggest.format(convertedVal));
                     distanceTextView.setText(stringResult);
 
